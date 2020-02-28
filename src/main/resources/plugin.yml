@@ -1,0 +1,16 @@
+name: TimeTracker
+version: ${project.version}
+main: me.kyleevangelisto.timetracker.TimeTracker
+api-version: 1.13
+authors: [AidanMurphey, KyleEvangelisto, CodyPhobe]
+description: Track total time played on a server
+
+commands:
+  playtime:
+    description: Get the Player's play time or something.
+    permission: timetracker.playtime
+
+permissions:
+  timetracker.playtime:
+    description: gives access to /playtime
+    default: true
