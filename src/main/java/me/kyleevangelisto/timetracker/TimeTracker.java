@@ -11,6 +11,7 @@ public final class TimeTracker extends JavaPlugin {
         PlayerManager.getInstance();
         plugin = this;
         getCommand("playtime").setExecutor(new PlayTimeCommand()); //when command is run it will go to that
+        getCommand("leaderboard").setExecutor(new LeaderboardCommand()); //when command is run it will go to that
         // instance and run the on command method
         getServer().getPluginManager().registerEvents(new Listeners(), this);
         saveDefaultConfig();

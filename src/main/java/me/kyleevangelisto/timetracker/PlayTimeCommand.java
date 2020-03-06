@@ -7,8 +7,6 @@ import org.bukkit.command.CommandSender;
 import org.bukkit.entity.Player;
 
 import java.time.Instant;
-import java.util.UUID;
-import java.util.concurrent.TimeUnit;
 
 public class PlayTimeCommand implements CommandExecutor {
     @Override
